@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 60 40">
+<rect width="60" height="13.333" fill="#ED1C24"/>
+<rect y="13.333" width="60" height="13.334" fill="#FFFFFF"/>
+<rect y="26.667" width="60" height="13.333" fill="#278E43"/>
+<g transform="translate(30 20)" fill="#FFD200">
+<circle r="4.8"/>
+<g id="ray"><path d="M0-16.5 1.15-6.2h-2.3z"/></g>
+<use href="#ray" transform="rotate(0)"/><use href="#ray" transform="rotate(17.142857)"/>
+<use href="#ray" transform="rotate(34.285714)"/><use href="#ray" transform="rotate(51.428571)"/>
+<use href="#ray" transform="rotate(68.571428)"/><use href="#ray" transform="rotate(85.714285)"/>
+<use href="#ray" transform="rotate(102.857142)"/><use href="#ray" transform="rotate(120)"/>
+<use href="#ray" transform="rotate(137.142857)"/><use href="#ray" transform="rotate(154.285714)"/>
+<use href="#ray" transform="rotate(171.428571)"/><use href="#ray" transform="rotate(188.571428)"/>
+<use href="#ray" transform="rotate(205.714285)"/><use href="#ray" transform="rotate(222.857142)"/>
+<use href="#ray" transform="rotate(240)"/><use href="#ray" transform="rotate(257.142857)"/>
+<use href="#ray" transform="rotate(274.285714)"/><use href="#ray" transform="rotate(291.428571)"/>
+<use href="#ray" transform="rotate(308.571428)"/><use href="#ray" transform="rotate(325.714285)"/>
+<use href="#ray" transform="rotate(342.857142)"/>
+</g></svg>

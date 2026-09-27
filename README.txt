@@ -1,3 +1,2 @@
-TDB Food Website
-
-Upload all files and folders to GitHub. Replace existing index.html and add all additional files. Main page: index.html
+TDB Food Website V4 Premium
+Upload all files to the GitHub repository root. Keep CNAME with tdb-food.de.
