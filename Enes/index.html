@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Enes Alici | TDB Food</title>
+
+<style>
+*{
+  box-sizing:border-box;
+  margin:0;
+  padding:0;
+}
+
+body{
+  font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Arial,sans-serif;
+  background:#f4f7fb;
+  color:#101828;
+  min-height:100vh;
+}
+
+.page{
+  width:100%;
+  max-width:520px;
+  margin:auto;
+  min-height:100vh;
+  background:#fff;
+  padding-bottom:40px;
+}
+
+.header{
+  height:150px;
+  background:linear-gradient(135deg,#0d4fa3,#2789e8);
+  position:relative;
+  margin-bottom:75px;
+}
+
+.logo{
+  position:absolute;
+  top:22px;
+  left:24px;
+  width:115px;
+  max-height:55px;
+  object-fit:contain;
+  background:#fff;
+  border-radius:10px;
+  padding:6px;
+}
+
+.profile{
+  position:absolute;
+  width:135px;
+  height:135px;
+  border-radius:50%;
+  object-fit:cover;
+  object-position:center;
+  left:50%;
+  bottom:-67px;
+  transform:translateX(-50%);
+  border:5px solid #fff;
+  box-shadow:0 8px 25px rgba(0,0,0,.16);
+}
+
+.content{
+  padding:0 22px;
+  text-align:center;
+}
+
+h1{
+  font-size:30px;
+  font-weight:750;
+  margin-bottom:5px;
+}
+
+.role{
+  font-size:17px;
+  color:#667085;
+  margin-bottom:4px;
+}
+
+.company{
+  font-size:16px;
+  color:#1769c2;
+  font-weight:650;
+  margin-bottom:26px;
+}
+
+.actions{
+  display:grid;
+  grid-template-columns:1fr 1fr;
+  gap:11px;
+}
+
+.action{
+  text-decoration:none;
+  color:#101828;
+  background:#f7f9fc;
+  border:1px solid #e4e9f0;
+  border-radius:15px;
+  padding:15px 8px;
+  font-size:15px;
+  font-weight:650;
+}
+
+.action.primary{
+  background:#1769c2;
+  color:#fff;
+  border-color:#1769c2;
+}
+
+.save{
+  display:block;
+  margin-top:12px;
+  background:#101828;
+  color:#fff;
+  text-decoration:none;
+  border-radius:15px;
+  padding:16px;
+  font-size:16px;
+  font-weight:700;
+}
+
+.info{
+  margin-top:28px;
+  text-align:left;
+  border-top:1px solid #eaecf0;
+}
+
+.row{
+  padding:16px 2px;
+  border-bottom:1px solid #eaecf0;
+}
+
+.label{
+  display:block;
+  font-size:12px;
+  color:#98a2b3;
+  margin-bottom:4px;
+  text-transform:uppercase;
+  letter-spacing:.5px;
+}
+
+.value{
+  font-size:15px;
+  color:#344054;
+  text-decoration:none;
+}
+
+.footer{
+  margin-top:25px;
+  font-size:12px;
+  color:#98a2b3;
+}
+</style>
+</head>
+
+<body>
+
+<div class="page">
+
+  <div class="header">
+    <img src="tdb-logo.jpg" class="logo" alt="TDB Food">
+    <img src="enes-alici.jpg" class="profile" alt="Enes Alici">
+  </div>
+
+  <div class="content">
+
+    <h1>Enes Alici</h1>
+    <div class="role">Account Manager</div>
+    <div class="company">TDB Food – Meat &amp; More</div>
+
+    <div class="actions">
+
+      <a class="action primary"
+         href="https://wa.me/4917624115839">
+         WhatsApp
+      </a>
+
+      <a class="action"
+         href="tel:+4917624115839">
+         Anrufen
+      </a>
+
+      <a class="action"
+         href="https://www.instagram.com/tdb_food/">
+         Instagram
+      </a>
+
+      <a class="action"
+         href="mailto:info@tdb-food.de">
+         E-Mail
+      </a>
+
+      <a class="action"
+         href="https://tdb-food.de">
+         Website
+      </a>
+
+      <a class="action"
+         href="https://www.google.com/maps/search/?api=1&query=Marconistr.+34,+50769+K%C3%B6ln">
+         Standort
+      </a>
+
+    </div>
+
+    <a class="save" href="enes-alici.vcf">
+      Kontakt speichern
+    </a>
+
+    <div class="info">
+
+      <div class="row">
+        <span class="label">Mobil &amp; WhatsApp</span>
+        <a class="value" href="tel:+4917624115839">
+          0176 24115839
+        </a>
+      </div>
+
+      <div class="row">
+        <span class="label">E-Mail</span>
+        <a class="value" href="mailto:info@tdb-food.de">
+          info@tdb-food.de
+        </a>
+      </div>
+
+      <div class="row">
+        <span class="label">Instagram</span>
+        <a class="value" href="https://www.instagram.com/tdb_food/">
+          @tdb_food
+        </a>
+      </div>
+
+      <div class="row">
+        <span class="label">Unternehmen</span>
+        <span class="value">TDB GmbH · TDB Food – Meat &amp; More</span>
+      </div>
+
+      <div class="row">
+        <span class="label">Adresse</span>
+        <span class="value">Marconistr. 34 · 50769 Köln</span>
+      </div>
+
+    </div>
+
+    <div class="footer">
+      TDB Food – Meat &amp; More
+    </div>
+
+  </div>
+</div>
+
+</body>
+</html>
