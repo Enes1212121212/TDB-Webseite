@@ -29,7 +29,6 @@ body{
   padding-bottom:42px;
 }
 
-/* HEADER */
 .header{
   height:210px;
   position:relative;
@@ -40,7 +39,6 @@ body{
     linear-gradient(135deg,#0d4fa3,#2789e8);
 }
 
-/* LOGO */
 .logo-box{
   position:absolute;
   top:24px;
@@ -62,7 +60,6 @@ body{
   object-fit:contain;
 }
 
-/* PROFILE */
 .profile{
   position:absolute;
   width:150px;
@@ -78,7 +75,6 @@ body{
   background:#fff;
 }
 
-/* CONTENT */
 .content{
   padding:0 24px;
   text-align:center;
@@ -105,7 +101,6 @@ h1{
   margin-bottom:28px;
 }
 
-/* BIG SOCIAL BUTTONS */
 .social-actions{
   display:flex;
   flex-direction:column;
@@ -181,7 +176,6 @@ h1{
     radial-gradient(circle at 30% 110%,#ffd600 0%,#ff7a00 22%,#ff0169 47%,#d300c5 68%,#7638fa 100%);
 }
 
-/* SMALL ACTIONS */
 .actions{
   display:grid;
   grid-template-columns:1fr 1fr;
@@ -239,7 +233,6 @@ h1{
   text-overflow:ellipsis;
 }
 
-/* SAVE CONTACT */
 .save{
   display:flex;
   align-items:center;
@@ -263,7 +256,6 @@ h1{
   height:23px;
 }
 
-/* INFORMATION */
 .info{
   margin-top:31px;
   text-align:left;
@@ -299,29 +291,12 @@ h1{
 }
 
 @media(max-width:370px){
-  .content{
-    padding:0 17px;
-  }
-
-  h1{
-    font-size:29px;
-  }
-
-  .social{
-    min-height:68px;
-  }
-
-  .action{
-    padding:9px;
-  }
-
-  .action-icon{
-    margin-right:7px;
-  }
-
-  .action-title{
-    font-size:14px;
-  }
+  .content{padding:0 17px;}
+  h1{font-size:29px;}
+  .social{min-height:68px;}
+  .action{padding:9px;}
+  .action-icon{margin-right:7px;}
+  .action-title{font-size:14px;}
 }
 </style>
 </head>
@@ -333,16 +308,14 @@ h1{
   <div class="header">
 
     <div class="logo-box">
-      <img
-        src="tdb-logo.png"
-        class="logo"
-        alt="TDB Food – Meat & More">
+      <img src="tdb-logo.png"
+           class="logo"
+           alt="TDB Food – Meat & More">
     </div>
 
-    <img
-      src="enes-alici.jpg"
-      class="profile"
-      alt="Enes Alici">
+    <img src="enes-alici.jpg"
+         class="profile"
+         alt="Enes Alici">
 
   </div>
 
@@ -358,24 +331,28 @@ h1{
       TDB Food – Meat &amp; More
     </div>
 
-    <!-- GROSSE SOCIAL BUTTONS -->
-
     <div class="social-actions">
 
       <a class="social whatsapp"
          href="https://wa.me/4917624115839">
 
         <span class="social-icon">
-          <svg viewBox="0 0 24 24"
-               fill="none"
-               stroke="currentColor"
-               stroke-width="1.8"
-               stroke-linecap="round"
-               stroke-linejoin="round"
+
+          <!-- WHATSAPP LOGO -->
+          <svg viewBox="0 0 32 32"
+               xmlns="http://www.w3.org/2000/svg"
                aria-hidden="true">
-            <path d="M20.5 11.7a8.5 8.5 0 0 1-12.6 7.45L3 20.5l1.3-4.75A8.5 8.5 0 1 1 20.5 11.7Z"/>
-            <path d="M8.2 7.8c.2-.45.4-.46.7-.47h.6c.18 0 .38.07.48.32l.8 1.9c.08.2.04.4-.08.56l-.6.73c-.14.17-.12.32-.03.48.48.82 1.1 1.52 1.86 2.08.65.48 1.37.86 2.14 1.13.2.07.36.04.5-.12l.82-.95c.16-.18.36-.22.57-.14l1.82.86c.23.11.38.22.4.4.04.35-.16 1.16-.45 1.55-.44.58-1.25.9-1.98.94-.55.03-1.24-.07-2.38-.56-1.4-.6-2.62-1.43-3.65-2.48-1.05-1.07-1.84-2.28-2.37-3.62-.43-1.08-.46-1.77-.3-2.3.13-.43.43-.82.65-1.31Z"/>
+
+            <path
+              fill="#ffffff"
+              d="M16.04 3C8.86 3 3.02 8.82 3.02 15.98c0 2.29.6 4.53 1.74 6.49L3 29l6.7-1.75a13 13 0 006.33 1.61h.01c7.18 0 13.02-5.82 13.02-12.98C29.06 8.82 23.22 3 16.04 3zm0 23.67h-.01a10.78 10.78 0 01-5.5-1.5l-.39-.23-3.97 1.04 1.06-3.86-.25-.4a10.72 10.72 0 01-1.65-5.74c0-5.91 4.81-10.72 10.73-10.72 2.86 0 5.55 1.12 7.58 3.14a10.65 10.65 0 013.14 7.58c-.01 5.91-4.82 10.69-10.74 10.69z"/>
+
+            <path
+              fill="#ffffff"
+              d="M21.92 18.63c-.32-.16-1.91-.94-2.21-1.05-.3-.11-.52-.16-.74.16-.22.32-.85 1.05-1.04 1.27-.19.22-.38.24-.7.08-.32-.16-1.36-.5-2.59-1.59-.96-.85-1.6-1.91-1.79-2.23-.19-.32-.02-.5.14-.66.15-.14.32-.38.48-.57.16-.19.22-.32.32-.54.11-.22.05-.4-.03-.57-.08-.16-.74-1.78-1.01-2.43-.27-.64-.54-.55-.74-.56h-.63c-.22 0-.57.08-.87.4-.3.32-1.14 1.11-1.14 2.7s1.17 3.13 1.33 3.35c.16.22 2.3 3.51 5.57 4.92.78.34 1.39.54 1.86.69.78.25 1.49.21 2.05.13.63-.09 1.91-.78 2.18-1.54.27-.76.27-1.41.19-1.54-.08-.13-.3-.21-.62-.37z"/>
+
           </svg>
+
         </span>
 
         <span class="social-text">
@@ -413,12 +390,9 @@ h1{
 
     </div>
 
-    <!-- KLEINE BUTTONS -->
-
     <div class="actions">
 
-      <a class="action"
-         href="tel:+4917624115839">
+      <a class="action" href="tel:+4917624115839">
 
         <span class="action-icon">
           <svg viewBox="0 0 24 24"
@@ -436,8 +410,7 @@ h1{
 
       </a>
 
-      <a class="action"
-         href="mailto:info@tdb-food.de">
+      <a class="action" href="mailto:info@tdb-food.de">
 
         <span class="action-icon">
           <svg viewBox="0 0 24 24"
@@ -456,8 +429,7 @@ h1{
 
       </a>
 
-      <a class="action"
-         href="https://tdb-food.de">
+      <a class="action" href="https://tdb-food.de">
 
         <span class="action-icon">
           <svg viewBox="0 0 24 24"
@@ -498,8 +470,6 @@ h1{
 
     </div>
 
-    <!-- KONTAKT SPEICHERN -->
-
     <a class="save" href="enes-alici.vcf">
 
       <svg viewBox="0 0 24 24"
@@ -513,30 +483,25 @@ h1{
 
     </a>
 
-    <!-- INFORMATIONEN -->
-
     <div class="info">
 
       <div class="row">
         <span class="label">Mobil &amp; WhatsApp</span>
-        <a class="value"
-           href="tel:+4917624115839">
+        <a class="value" href="tel:+4917624115839">
           +49 176 24115839
         </a>
       </div>
 
       <div class="row">
         <span class="label">E-Mail</span>
-        <a class="value"
-           href="mailto:info@tdb-food.de">
+        <a class="value" href="mailto:info@tdb-food.de">
           info@tdb-food.de
         </a>
       </div>
 
       <div class="row">
         <span class="label">Instagram</span>
-        <a class="value"
-           href="https://www.instagram.com/tdb_food/">
+        <a class="value" href="https://www.instagram.com/tdb_food/">
           @tdb_food
         </a>
       </div>
